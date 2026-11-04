@@ -1,0 +1,406 @@
+{
+  "framework": "ISO 9001:2026",
+  "source": "ISO 9001:2026 Quality management systems. Clause references with our own plain-language summaries; the standard's text is copyrighted and not reproduced.",
+  "official_text": "https://www.iso.org/search.html?q=9001",
+  "version": "2026-11-04",
+  "license": "CC-BY-4.0",
+  "disclaimer": "This repository is general information to help you understand and organize work on AI governance frameworks. It is not legal advice and does not guarantee compliance, certification or any regulatory outcome. Requirements are summarized in our own words; always check the official texts and get qualified advice for your situation.",
+  "requirements": [
+    {
+      "id": "ISO9001-01",
+      "ref": "4.1",
+      "title": "Understanding the organization and its context",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Know the internal and external issues that affect what your QMS can achieve, including whether climate change is relevant.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Context register with issues and review date; climate determination with reasons; review at management review."
+    },
+    {
+      "id": "ISO9001-02",
+      "ref": "4.2",
+      "title": "Needs and expectations of interested parties",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Identify who has a stake in your QMS, what they require, and which of those requirements your QMS addresses.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Interested-party register showing requirements and which are addressed through the QMS."
+    },
+    {
+      "id": "ISO9001-03",
+      "ref": "4.3",
+      "title": "Scope of the QMS",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Decide and write down what the QMS covers: products, services, sites, and any requirement you treat as not applicable, with reasons.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Scope statement (documented information) with justification for any non-applicable requirement."
+    },
+    {
+      "id": "ISO9001-04",
+      "ref": "4.4",
+      "title": "QMS and its processes",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Define the processes the QMS needs, how they connect, who owns them, and how you control and measure them.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Process map and process cards; procedures or instructions needed to run processes; records that processes run as planned."
+    },
+    {
+      "id": "ISO9001-05",
+      "ref": "5.1.1",
+      "title": "Leadership and commitment",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Top management takes accountability for the QMS and promotes a quality culture and ethical behavior.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Management review minutes, culture and ethics statement, concern log, evidence of leaders' involvement."
+    },
+    {
+      "id": "ISO9001-06",
+      "ref": "5.1.2",
+      "title": "Customer focus",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Leaders make sure customer and legal requirements are understood and met and customer satisfaction stays a priority.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Customer satisfaction results and actions; KPI reviews; complaint handling."
+    },
+    {
+      "id": "ISO9001-07",
+      "ref": "5.2",
+      "title": "Quality policy",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Set a quality policy that fits your context and strategic direction, communicate it, and make it available.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Approved policy (documented information), communication records, availability to interested parties."
+    },
+    {
+      "id": "ISO9001-08",
+      "ref": "5.3",
+      "title": "Roles, responsibilities and authorities",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Assign and communicate who is responsible for what in the QMS, including keeping the QMS intact during change.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Role profiles or RACI tables, organization chart, appointment of responsibilities."
+    },
+    {
+      "id": "ISO9001-09",
+      "ref": "6.1.1",
+      "title": "Determining risks and opportunities",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Use your context and interested parties to identify risks and opportunities the QMS must address.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Risk and opportunity registers linked to context issues."
+    },
+    {
+      "id": "ISO9001-10",
+      "ref": "6.1.2",
+      "title": "Actions to address risks",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Analyze and evaluate risks and take actions proportionate to their impact.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Risk register with ratings, actions, owners and effectiveness review."
+    },
+    {
+      "id": "ISO9001-11",
+      "ref": "6.1.3",
+      "title": "Actions to address opportunities",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Analyze and evaluate opportunities separately and decide which to pursue.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Opportunity register with decisions and results."
+    },
+    {
+      "id": "ISO9001-12",
+      "ref": "6.2",
+      "title": "Quality objectives",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Set measurable objectives at relevant functions and plan what, who, when and how results are evaluated.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Objectives with targets, plans and progress (documented information)."
+    },
+    {
+      "id": "ISO9001-13",
+      "ref": "6.3",
+      "title": "Planning of changes",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Plan changes to the QMS in a controlled way: purpose, consequences, resources, communication, and review of results.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Change planning records, communication and post-change review."
+    },
+    {
+      "id": "ISO9001-14",
+      "ref": "7.1.1\u20137.1.4",
+      "title": "Resources, people, infrastructure, environment",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Provide the people, infrastructure and work environment the processes need.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Resource plans in management review; maintenance records; work environment provisions."
+    },
+    {
+      "id": "ISO9001-15",
+      "ref": "7.1.5",
+      "title": "Monitoring and measuring resources",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Keep measuring equipment suitable, calibrated or verified, identified and protected; act if it is found out of calibration.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Calibration register and certificates; basis for calibration where no standard exists; out-of-tolerance assessments."
+    },
+    {
+      "id": "ISO9001-16",
+      "ref": "7.1.6",
+      "title": "Organizational knowledge",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Identify the knowledge needed to run processes and achieve results, then retain, apply and share it.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Knowledge map, lessons learned, key-person risk actions."
+    },
+    {
+      "id": "ISO9001-17",
+      "ref": "7.2",
+      "title": "Competence",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Define required competence for each role, close gaps through training or other actions, and evaluate effectiveness.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Training matrix, qualifications, training records and effectiveness checks (documented evidence)."
+    },
+    {
+      "id": "ISO9001-18",
+      "ref": "7.3",
+      "title": "Awareness",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Make sure people know the policy, objectives, their contribution, quality culture and ethics, and the consequences of not following the QMS.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Awareness session records, quiz results, induction records."
+    },
+    {
+      "id": "ISO9001-19",
+      "ref": "7.4",
+      "title": "Communication",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Decide what, when, with whom and how to communicate internally and externally about the QMS.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Communication plan or matrix; meeting records."
+    },
+    {
+      "id": "ISO9001-20",
+      "ref": "7.5",
+      "title": "Documented information",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Create, approve, update and control documents and records so the right version is available and protected.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Document master list, approval and revision records, retention list, access controls."
+    },
+    {
+      "id": "ISO9001-21",
+      "ref": "8.1",
+      "title": "Operational planning and control",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Plan and control the processes needed to deliver products and services, including outsourced ones.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Control plans, work instructions, records that processes were carried out as planned."
+    },
+    {
+      "id": "ISO9001-22",
+      "ref": "8.2",
+      "title": "Requirements for products and services",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Communicate with customers (including contingency information), determine requirements, review them before committing, and manage changes.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Contract or order review records, records of changed requirements, contingency information given to customers."
+    },
+    {
+      "id": "ISO9001-23",
+      "ref": "8.3",
+      "title": "Design and development",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Plan and control design: inputs, controls, outputs and changes. Not applicable if you do not design.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Design plans, input records, reviews, verification and validation, design change records."
+    },
+    {
+      "id": "ISO9001-24",
+      "ref": "8.4",
+      "title": "Control of externally provided processes, products and services",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Evaluate, select, monitor and re-evaluate suppliers, and tell them your requirements.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Supplier evaluations, approved supplier list, performance monitoring, purchase requirements."
+    },
+    {
+      "id": "ISO9001-25",
+      "ref": "8.5.1",
+      "title": "Control of production and service provision",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Run production or service under controlled conditions: information, equipment, competent people, validation where needed.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Work instructions, job records, process validation where output cannot be verified."
+    },
+    {
+      "id": "ISO9001-26",
+      "ref": "8.5.2\u20138.5.5",
+      "title": "Identification, traceability, property, preservation, post-delivery",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Identify outputs and their status, trace where required, care for customer property, preserve product and meet post-delivery needs.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Traceability records, customer property records, post-delivery activity records."
+    },
+    {
+      "id": "ISO9001-27",
+      "ref": "8.5.6",
+      "title": "Control of changes",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Review and control unplanned production or service changes and record the results.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Change records with review results, who authorized and actions."
+    },
+    {
+      "id": "ISO9001-28",
+      "ref": "8.6",
+      "title": "Release of products and services",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Verify requirements are met before release and record who authorized it.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Release records with conformity evidence and authorizing person."
+    },
+    {
+      "id": "ISO9001-29",
+      "ref": "8.7",
+      "title": "Control of nonconforming outputs",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Identify and control nonconforming outputs; correct, segregate, inform or accept under concession.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "NC records: description, actions, concessions, authority for the decision."
+    },
+    {
+      "id": "ISO9001-30",
+      "ref": "9.1.1",
+      "title": "Monitoring, measurement, analysis and evaluation",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Decide what to monitor, how and when, and evaluate QMS performance and effectiveness.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "KPI dashboard, analysis results (documented evidence)."
+    },
+    {
+      "id": "ISO9001-31",
+      "ref": "9.1.2",
+      "title": "Customer satisfaction",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Monitor customers' perception of how well their needs are met.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Survey results, analysis and actions."
+    },
+    {
+      "id": "ISO9001-32",
+      "ref": "9.1.3",
+      "title": "Analysis and evaluation",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Analyze data to evaluate conformity, satisfaction, performance, risk actions, suppliers and improvement needs.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Analysis reports feeding management review."
+    },
+    {
+      "id": "ISO9001-33",
+      "ref": "9.2",
+      "title": "Internal audit",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Run a planned audit program with objectives, criteria and scope; report results and act on findings.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Audit program, plans with objectives, reports and findings (documented evidence)."
+    },
+    {
+      "id": "ISO9001-34",
+      "ref": "9.3",
+      "title": "Management review",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Top management reviews the QMS at planned intervals with all required inputs and records decisions.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Management review minutes covering all inputs and outputs (documented evidence)."
+    },
+    {
+      "id": "ISO9001-35",
+      "ref": "10.1",
+      "title": "Continual improvement",
+      "roles": [
+        "organization"
+      ],
+      "summary": "Use results, analysis and review outputs to improve the QMS and its results.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Improvement projects and their results; opportunity register."
+    },
+    {
+      "id": "ISO9001-36",
+      "ref": "10.2",
+      "title": "Nonconformity and corrective action",
+      "roles": [
+        "organization"
+      ],
+      "summary": "React to nonconformities, find root causes, act, check effectiveness and update risks if needed.",
+      "applies_from": "Certifiable; transition from ISO 9001:2015",
+      "evidence": "Nonconformity and corrective action records with root cause and effectiveness verification."
+    }
+  ]
+}
